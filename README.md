@@ -1,9 +1,10 @@
 # Streamlit URL fragment
 
 Get the URL fragment (the part of URL after #) in your Streamlit script:
+
 ```python
 import streamlit as st
-from streamlit_url_fragment import get_fragments
+from streamlit_url_fragments import get_fragments
 
 current_value = get_fragments()
 st.write(f"Current value: {get_fragments()}")
@@ -17,7 +18,7 @@ Please make sure to test the type returned by the function before using it.
 
 ```python
 import streamlit as st
-from streamlit_url_fragment import get_fragments
+from streamlit_url_fragments import get_fragments
 
 current_value = get_fragments()
 

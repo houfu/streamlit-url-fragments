@@ -1,1 +1,1 @@
-recursive-include streamlit_url_fragment/build *
+recursive-include streamlit_url_fragments/build *

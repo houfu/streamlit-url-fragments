@@ -1,6 +1,6 @@
 import streamlit as st
 
-from streamlit_url_fragment import get_fragments
+from streamlit_url_fragments import get_fragments
 
 st.header("""Access URL fragment ("hash") from Streamlit""")
 
