@@ -2,7 +2,7 @@
 name = "streamlit-url-fragments"
 version = "0.1.0"
 description = "Get the URL fragment(s) (part after #) from Streamlit"
-authors = ["Tomasz Kontusz <tomasz.kontusz@gmail.com>"]
+authors = ["Ang Hou Fu <houfu@lovelawrobots.com>"]
 license = "Apache-2.0"
 
 readme = "README.md"

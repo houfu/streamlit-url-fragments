@@ -1,5 +1,8 @@
 # Streamlit URL fragment
 
+A fork of  [ktosiek/streamlit-url-fragment](https://github.com/ktosiek/streamlit-url-fragment)
+that adds the ability to get the hash as a dictionary if it is in the correct format.
+
 Get the URL fragment (the part of URL after #) in your Streamlit script:
 
 ```python
