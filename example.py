@@ -1,15 +1,14 @@
 import streamlit as st
 
+from streamlit_url_fragment import get_fragments
 
 st.header("""Access URL fragment ("hash") from Streamlit""")
 
-with st.echo():
-    from streamlit_url_fragment import get_fragment
+current_value = get_fragments()
+st.write(f"Current value")
+st.write(current_value)
 
-    current_value = get_fragment()
-    st.write(f"Current value: {current_value!r}")
-
-col1, col2 =  st.columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.subheader("Header 1")
     """You can click on the link next to a header to see the fragment change."""
