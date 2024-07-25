@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "streamlit-url-fragments"
-version = "0.1.1"
+version = "0.1.2"
 description = "Get the URL fragment(s) (part after #) from Streamlit"
 authors = ["Ang Hou Fu <houfu@lovelawrobots.com>"]
 license = "Apache-2.0"

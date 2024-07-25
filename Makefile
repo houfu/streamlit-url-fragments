@@ -1,7 +1,7 @@
 version = $(shell poetry version -s)
 
 python_sources = $(wildcard streamlit_url_fragments/*.py) pyproject.toml MANIFEST.in
-js_sources := $(wildcard streamlit_url_fragments/public/*) $(wildcard streamlit_url_fragments/src/*) streamlit_url_fragments    /tsconfig.json
+js_sources := $(wildcard streamlit_url_fragments/public/*) $(wildcard streamlit_url_fragments/src/*) streamlit_url_fragments/tsconfig.json
 js_npm_install_marker = streamlit_url_fragments/node_modules/.package-lock.json
 
 build: js sdist wheels
