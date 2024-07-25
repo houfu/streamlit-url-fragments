@@ -19,7 +19,7 @@ def split_string_to_dict(input_string):
 
 def get_fragments() -> Union[str, dict, None]:
     component_value = _component_func()
-    if not None:
+    if not component_value:
         import re
         pattern = r'^#[^=&]+=[^&=]+(?:&[^=&]+=[^&=]+)*$'
         if re.match(pattern, component_value):
